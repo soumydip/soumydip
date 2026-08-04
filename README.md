@@ -30,7 +30,6 @@ I'm a Computer Science student and backend-focused full-stack developer building
 
 <!--START_SECTION:activity-->
 1. 🚀 Pushed commits to **ucoder_insight_core** — BullMQ queue optimization
-2. 🔨 Working on **Flex Chat** — Group E2EE with per-member encrypted keys
 3. 📦 Published **ucoder-insight** v1.x on NPM
 4. 🐛 Fixed Redis TTL heartbeat bug in real-time presence system
 5. 🌐 Deployed **Ucoder Insights** on Azure VM with Docker + Nginx
@@ -89,20 +88,6 @@ A production-grade, **cookie-free analytics SaaS platform** with multi-site trac
 **Stack:** Next.js · Node.js · MongoDB · PostgreSQL (Supabase) · Redis · BullMQ · Docker · Nginx · Azure · Cloudflare · TypeScript
 
 🔗 **[Live Site](https://insights.ucoder.in)** · **[NPM Package](https://www.npmjs.com/package/ucoder-insight)** · 💻 **[GitHub Repository](https://github.com/soumydip/ucoder_insight_core)**
-
----
-
-#### 2. 💬 Flex Chat — E2EE Real-Time Messaging Platform
-*2026 – Present · Final-Year Team Project*
-
-A **WhatsApp-style secure chat platform** with end-to-end encryption — the server never sees plaintext messages.
-
-- Engineered **E2EE** using Web Crypto API (ECDH key exchange + AES-GCM) with per-member encrypted group keys stored in MongoDB
-- Built real-time delivery, typing indicators, and online presence via **Socket.io** and Redis (TTL-based heartbeat)
-- Integrated **Transformers.js + IndexedDB** for in-browser multilingual translation (English / Bengali / Hindi) with zero server cost
-
-**Stack:** Next.js · Node.js · Socket.io · MongoDB · Redis · Web Crypto API · ZegoCloud · Transformers.js
-
 ---
 
 #### 3. 🌐 Ucoder.in — Freelancing Platform
